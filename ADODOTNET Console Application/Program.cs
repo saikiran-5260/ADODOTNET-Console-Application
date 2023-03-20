@@ -10,4 +10,4 @@ SqlCommand sc = new SqlCommand("insert into Student(id,name,email,date_of_joinin
 con.Open();
 sc.ExecuteNonQuery();
 con.Close();
-Console.WriteLine("Insert Query Executed successfully");
+Console.WriteLine("Insert Query Executed with successfully ");
